@@ -1,0 +1,262 @@
+.functionalities > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.rombo {
+  z-index: 1;
+  width: 65px;
+  height: 65px;
+  margin: 10% 5%;
+  background: #ff0000;
+  transform: rotate(45deg);
+  border-radius: 10px;
+}
+.rombo > img {
+  margin-top: 20%;
+  margin-left: 30%;
+  width: 35px;
+  height: 40px;
+  transform: rotate(-45deg);
+}
+.utility {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10%;
+  margin-right: 5%;
+}
+.utility > div > p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #696969;
+}
+.utility > div {
+  margin-right: 5%;
+}
+.utility > img {
+  max-width: 15%;
+  margin: 5%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  margin: 5%;
+  background-color: #e5e5e5;
+  font-size: 14px;
+}
+form > .titles {
+  margin: 0%;
+  width: 96%;
+}
+.table {
+  margin-top: 41px;
+}
+tbody {
+  display: flex;
+  flex-direction: column;
+}
+tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 18px;
+  font-weight: 700;
+}
+td {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+td > div > label {
+  font-size: 14px;
+}
+textarea {
+  width: 200px;
+}
+#confirm {
+  width: 200px;
+  height: 40.64px;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 14px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 5px;
+}
+.history-section {
+  text-align: center;
+  background-color: #9f5c62;
+  color: #ffffff;
+  background-image: url("./../assets/Rectangle\ 119.png");
+  background-repeat: no-repeat;
+}
+.history-rows {
+  display: flex;
+  justify-content: space-around;
+}
+.history {
+  display: flex;
+  flex: 1;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  width: 32%;
+}
+.history > p {
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 10px;
+  text-align: center;
+}
+.years {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  font-family: "rokkit";
+  color: black;
+  font-size: 14px;
+}
+.contact {
+  text-align: center;
+  margin: 75% 5%;
+  background-color: #ff5454;
+}
+.contact > div {
+  padding: 10%;
+}
+.contact > div > p {
+  padding: 5%;
+}
+.contact > div > h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav > div {
+  margin: 10%;
+}
+.title-nav {
+  display: flex;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  color: #ff0000;
+  text-transform: uppercase;
+}
+nav > div > ul > li > a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #747474;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  form > .titles {
+    display: none;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .functionalities {
+    margin-left: 20%;
+  }
+  .bold,
+  .contact > div > h2 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  .utility > div > p,
+  nav > div > ul > li > a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #696969;
+  }
+  .utility > div {
+    margin-right: 0%;
+  }
+  form {
+    margin: 5% 15%;
+    padding-bottom: 15%;
+  }
+  form > .titles {
+    display: none;
+  }
+  tr {
+    font-weight: 700;
+  }
+  textarea {
+    margin-bottom: 10%;
+  }
+  #confirm,
+  .years,
+  tr,
+  form {
+    font-size: 24px;
+  }
+  .history > p {
+    font-size: 16px;
+  }
+  .contact {
+    margin: 50% 15%;
+    font-size: 26px;
+  }
+  .title-nav {
+    font-size: 36px;
+  }
+}
+@media (min-width: 768px) {
+  main {
+    margin-left: 20%;
+  }
+  .contact {
+    display: none;
+  }
+  form {
+    flex-direction: column;
+    align-items: center;
+    margin: 0% 15% 10% 15%;
+  }
+  tr {
+    font-weight: 700;
+  }
+  textarea {
+    margin-bottom: 10%;
+  }
+  nav {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  nav > div {
+    margin: 10% 0% 10% 0%;
+  }
+  .titles2 {
+    display: none;
+  }
+  .history {
+    margin-bottom: 0%;
+  }
+  .history > p {
+    padding: 10%;
+    font-size: 18px;
+  }
+  .years {
+    font-size: 34px;
+  }
+  .utility,
+  .functionalities {
+    flex-wrap: nowrap;
+  }
+  .container {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,359 @@
+/* body {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto";
+} */
+
+/* FUNCTIONALITIES***************************************************************************** */
+
+/* .rombo1 {
+  position: absolute;
+  left: 430.73px;
+  margin-top: 356.61px;
+  width: 98.2px;
+  height: 98.2px;
+  background: #ff0000;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-radius: 10px;
+}
+#icon-record-hours {
+  position: absolute;
+  left: 444.91px;
+  margin-top: 364.68px;
+}
+#record-hours {
+  position: absolute;
+  left: 579.15px;
+  margin-top: 336.76px;
+  font-family: "Roboto";
+  font-style: bold;
+  font-weight: 700px;
+  font-size: 32px;
+  color: #000000;
+}
+.rombo2 {
+  position: absolute;
+  left: 915.57px;
+  margin-top: 354.8px;
+  width: 98.2px;
+  height: 98.2px;
+  background: #ff0000;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-radius: 10px;
+}
+#icon-reports {
+  position: absolute;
+  left: 938.86px;
+  margin-top: 369.1px;
+}
+#reports {
+  position: absolute;
+  left: 1064px;
+  margin-top: 339.12px;
+  font-family: "Roboto";
+  font-style: bold;
+  font-weight: 700px;
+  font-size: 32px;
+  color: #000000;
+}
+.rombo3 {
+  position: absolute;
+  left: 431.63px;
+  margin-top: 639.98px;
+  width: 98.2px;
+  height: 98.2px;
+  background: #ff0000;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-radius: 10px;
+}
+#icon-resource-management {
+  position: absolute;
+  left: 453.9px;
+  margin-top: 657.88px;
+}
+#resource-management {
+  position: relative;
+  left: 303.15px;
+  top: 620.12px;
+  font-family: "Roboto";
+  font-style: bold;
+  font-weight: 700px;
+  font-size: 32px;
+  color: #000000;
+}
+.rombo4 {
+  position: absolute;
+  left: 915.57px;
+  margin-top: 600.98px;
+  width: 98.2px;
+  height: 98.2px;
+  background: #ff0000;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-radius: 10px;
+}
+#icon-multiple-roles {
+  position: absolute;
+  left: 938.75px;
+  margin-top: 617.88px;
+}
+#multiple-roles {
+  position: relative;
+  left: 788px;
+  top: 580.12px;
+  font-family: "Roboto";
+  font-style: bold;
+  font-weight: 700px;
+  font-size: 32px;
+  color: #000000;
+} */
+
+/* WHY USING TRACKGENIX************************************************* */
+
+/* .why-using-trackgenix {
+  position: relative;
+  width: 472px;
+  height: 72px;
+  left: 295px;
+  top: 93px;
+  background-color: #ff0000;
+}
+.subtitle-2 {
+  position: relative;
+  left: 410px;
+  top: 45px;
+  width: 472px;
+  height: 72px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+}
+.boost-productivity {
+  position: relative;
+  left: 237.3px;
+  top: 192.93px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+}
+#icon-boost-productivity {
+  position: relative;
+  left: 80.12px;
+  top: 190.99px;
+  width: 70.2px;
+  height: 82.23px;
+}
+#boost-prod {
+  position: relative;
+  width: 381px;
+  height: 72.3px;
+  left: 152.32px;
+  top: 120.66px;
+  text-align: center;
+}
+.work-traceability {
+  position: relative;
+  left: 874.67px;
+  top: 5.92px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+}
+#icon-work-traceability {
+  position: relative;
+  left: 751.87px;
+  top: 10.99px;
+  width: 70.2px;
+  height: 82.23px;
+}
+#work-traceability {
+  position: relative;
+  width: 284.89px;
+  height: 63.62px;
+  left: 825.95px;
+  text-align: center;
+}
+.leadership {
+  position: relative;
+  left: 189.3px;
+  top: 225.57px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+}
+#icon-leadership {
+  position: relative;
+  left: 84.75px;
+  top: 220.75px;
+  width: 75.78px;
+  height: 57.36px;
+}
+#leadership {
+  position: relative;
+  top: 175.21px;
+  left: 174.95px;
+  width: 383.68px;
+  height: 84.83px;
+  text-align: center;
+}
+.decision-making {
+  position: relative;
+  left: 874px;
+  top: 58px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+}
+#icon-decision {
+  position: relative;
+  width: 65.49px;
+  height: 80.28px;
+  left: 755.72px;
+  top: 50px;
+}
+#decision-making {
+  position: relative;
+  width: 449.87px;
+  height: 80.01px;
+  left: 830.13px;
+  text-align: center;
+  size: 15px;
+} */
+
+/* FORM ******************************************************************************************* */
+/* #information-request {
+  position: relative;
+  width: 737px;
+  height: 72px;
+  left: 161px;
+  top: 237px;
+  font-family: "Roboto";
+  font-weight: 700px;
+  font-size: 24px;
+  text-align: center;
+  background-color: #ff0000;
+  color: #ffffff;
+}
+form {
+  display: inline-block;
+  position: relative;
+  width: 737px;
+  height: 439px;
+  left: 161px;
+  top: 237px;
+  background-color: #e5e5e5;
+  font-size: 14px;
+}
+#table {
+  margin: auto;
+  margin-top: 41px;
+}
+.table-lable {
+  display: list-item;
+  font-family: "Roboto";
+  font-size: 22px;
+}
+#confirm {
+  width: 255px;
+  height: 40.64px;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 14px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 5px;
+} */
+
+/* HISTORY SECTION****************************************************************************************** */
+/* #history {
+  position: relative;
+  width: 430px;
+  height: 65.59px;
+  left: 362px;
+  font-family: "Roboto";
+  font-weight: 700px;
+  font-size: 30px;
+  text-align: center;
+  background-color: #ff0000;
+  color: #ffffff;
+}
+.history > p {
+  position: relative;
+  width: 377px;
+  height: 371px;
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  text-align: center;
+}
+.history > h3 {
+  position: relative;
+  font-family: "Rokkitt";
+  font-size: 36px;
+}
+.history-section {
+  background-image: url("./../assets/Rectangle\ 119.png");
+  background-repeat: no-repeat;
+}
+.history {
+  width: 25%;
+  height: 350px;
+  display: inline-table;
+} */
+
+/* NAV BAR******************************************************************************************************* */
+/* nav {
+  margin-left: 129px;
+  margin-bottom: 200px;
+}
+.title-nav {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #ff0000;
+  text-transform: uppercase;
+}
+ul {
+  display: inline-block;
+  width: 90%;
+}
+a {
+  font-size: 14px;
+  color: #747474;
+}
+nav > article {
+  display: inline-table;
+  width: 25%;
+  height: 226px;
+} */
+/* fOOTER****************************************************************************************** */
+/* footer > img {
+  margin-left: 150px;
+}
+footer {
+  background-color: #ff0000;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 28px;
+  color: white;
+  padding-top: 20px;
+}

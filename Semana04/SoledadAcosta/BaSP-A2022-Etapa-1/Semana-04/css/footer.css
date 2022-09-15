@@ -1,0 +1,32 @@
+footer > img {
+  max-width: 6%;
+  margin: 0 5% 0 5%;
+}
+footer {
+  background-color: #ff0000;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 12px;
+  color: white;
+  padding-top: 20px;
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  footer {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  footer > img {
+    max-width: none;
+    margin: 0 8% 0 8%;
+  }
+}
+@media (min-width: 768px) {
+  footer {
+    margin-left: 18%;
+    font-size: 26px;
+    padding-top: 4%;
+  }
+  footer > img {
+    margin: 0 5% 0 5%;
+  }
+}
