@@ -1,0 +1,23 @@
+.main-footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #FF0000;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font:normal;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+.main-footer h3 {
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+.main-footer nav img{
+    width: 35%;
+}

@@ -1,0 +1,97 @@
+body {
+    background-color: #fff;
+    font-family:Roboto, Flex, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button{
+    align-self: end;
+    margin-right: 7%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: #FF0000;
+    color: #fff;
+    padding: 10px 15px;
+    width: 42%;
+    height:40.64px;
+    border:none;
+    border-radius: 5px;
+}
+
+
+
+
+@media screen and (min-width: 1024px){
+    aside.mobile-sidebar{
+        display: none;
+    }
+  
+    aside.desktop-sidebar{
+        display: flex;
+    } 
+    main.container{
+        display: flex;
+    }
+    main{
+        margin-left: 18%;
+    }
+    main .articleWX-container{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    main .articleWX-container .article-icon{
+        width: 45%;
+    }
+    main .articleWX-container .fun-container{
+        font-size: 16px;
+    }
+    main .why-using-trackgenix .secondary-title-2{
+        width: 40%;
+        height: 75px;
+        align-self: center;
+        margin-left: 30%;
+    }
+    main .secondary-title{
+        width: 40%;
+        height: 75px;
+        align-self: center;
+    }
+    main .main-second-container .main-h2{
+        font-size: 22px;
+    }
+    main .main-second-container .container{
+        display: flex;
+        margin-right: 5%;
+        margin-bottom: 20%;
+        margin-top: 5%;
+    }
+    main .main-second-container .container .article-container{
+        padding-left: 5%;
+        padding-top: 10%;
+        font-size: 16px;
+        width: 40%;
+    }
+    main .contact-section{
+        display: none
+    }
+    main .list-nav{
+        flex-direction:row-reverse;
+        margin-bottom: 50%;
+        margin-left:10%;
+    }
+    main .functionalites .functionalities-megacontainer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    main .functionalites .functionalities-megacontainer .funcionalities-container{
+        width: 40%;
+        padding-left: 10%;
+        padding-top: 10%;
+    }
+}
+
+
