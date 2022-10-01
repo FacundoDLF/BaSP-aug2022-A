@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign up</title>
+        <link rel="resetsheet" href="../styles/reset.css">
+        <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/header.css">
+        <link rel="stylesheet" href="../styles/aside.css">
+        <link rel="stylesheet" href="../styles/main.css">
+        <link rel="stylesheet" href="../styles/footer.css">
+        <link rel="stylesheet" href="../styles/employee-signup.css">
+        <script src="../javascript/employee-signup.js"></script>
+    </head>
+    <body>
+        <header class="container">
+            <img src="../img/header-trackgenix.svg" alt="Trackgenix by RadiumRocket" class="mobile desktop">
+            <img src="../img/header-trackgenix-2.png" alt="Trackgenix by RadiumRocket" class="tablet">
+            <img src="../img/triangle-button.png" alt="menu_arrow" class="button">
+            <div class="logos">
+                <a href="" target="_blank"><img src="../img/tw-1.png" alt="twitter logo"></a>
+                <a href="" target="_blank"><img src="../img/ig-1.png" alt="instagram logo"></a>
+                <a href="" target="_blank"><img src="../img/in-1.png" alt="linkedin logo"></a>
+                <a href="" target="_blank"><img src="../img/fb-1.png" alt="facebook logo"></a>  
+            </div>                 
+        </header>
+        <nav class="nav-bar">
+            <ul class="list">
+                <li class="current">
+                    <a href="../views/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../views/login.html">Sign in</a>
+                </li>
+                <li>
+                    <a href="../views/employee-signup.html">Sign up</a>
+                </li>
+                <li>
+                    <a href="">About us</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="not-header">
+            <aside class="container">
+                <section class="section nav">
+                    <h2 class="title">Menu</h2>
+                    <ul class="list">
+                        <li>
+                            <a href="../views/index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="../views/login.html">Sign in</a>
+                        </li>
+                        <li class="current">
+                            <a href="">Sign up</a>
+                        </li>
+                        <li>
+                            <a href="">About us</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section get-in-touch">
+                    <h2 class="title">Get in Touch</h2>
+                    <p class="text">
+                        Sed varius enim lorem ullamcorper dolore aliquam aenean ornare 
+                        velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam 
+                        facilisis ante interdum. Sed nulla amet lorem 
+                        feugiat tempus aliquam.
+                    </p>
+                    <address>
+                        <div class="contact-data">
+                            <img src="../img/sb1.png" alt="phone">
+                            <a href="tel:+0000000">(000) 000-0000</a>
+                        </div>
+                        <div class="contact-data">
+                            <img src="../img/sb2.png" alt="email">
+                            <a href="mailto:information@untitled.tld">information@untitled.tld</a>
+                        </div>
+                        <div class="contact-data">
+                            <img src="../img/sb3.png" alt="location">
+                            <p>
+                                1234 Somewhere Road #8254
+                                <br>
+                                Nashville, TN 00000-0000
+                            </p>
+                        </div>
+                    </address>
+                </section>
+            </aside>
+            <div class="not-header-r">
+                <main>
+                    <form class="signup">
+                        <h2>Register</h2>
+                        <div class="input-container">
+                            <div class="input">
+                                <label for="first-name">First name</label>
+                                <input type="text" name="" id="first-name" class="default-border">
+                                <div class="validation-msg" id="firstName-error"></div>
+                            </div>
+                            <div class="input">
+                                <label for="last-name">Last name</label>
+                                <input type="text" name="" id="last-name" class="default-border">
+                                <div class="validation-msg"  id="lastName-error"></div>
+                            </div>
+                            <div class="input">
+                                <label for="dni">DNI</label>
+                                <input type="text" name="" id="dni" class="default-border">
+                                <div class="validation-msg" id="dni-error"></div>
+                            </div>
+                            <div class="input">
+                                <label for="birth-date">Birth date</label>
+                                <input type="date" name="" id="birth-date" class="default-border">
+                                <div class="validation-msg" id="birthDate-error"></div>
+                            </div>
+                            <div class="input">
+                                <label for="phone-number">Phone number</label>
+                                <input type="text" name="" id="phone" class="default-border">
+                                <div class="validation-msg" id="phone-error"></div>
+                            </div>
+                            <div class="input">
+                                <label for="address">Address</label>
+                                <input type="text" name="" id="address" class="default-border">
+                                <div class="validation-msg"  id="address-error"></div>
+                            </div>
+                            <div class="input">
+                                <label for="location">Location</label>
+                                <input type="text" name="" id="location" class="default-border">
+                                <div class="validation-msg" id="location-error"></div>
+                            </div>
+                            <div class="input">
+                                <label for="postal-code">Postal code</label>
+                                <input type="text" name="" id="postal-code" class="default-border">
+                                <div class="validation-msg"  id="postalCode-error"></div>
+                            </div>
+                            <div class="input">
+                                <label for="email">Email</label>
+                                <input type="text" name="" id="email" class="default-border">
+                                <div class="validation-msg"  id="email-error"></div>
+                            </div>
+                            <div class="input">
+                                <label for="repeat-email">Repeat email</label>
+                                <input type="text" name="" id="repeat-email" class="default-border">
+                                <div class="validation-msg" id="repeatEmail-error"></div>
+                            </div>
+                            <div class="input">
+                                <label for="password">Password</label>
+                                <input type="password" name="" id="password" class="default-border">
+                                <div class="validation-msg" id="password-error"></div>
+                            </div>
+                            <div class="input">
+                                <label for="repeat-password">Repeat Password</label>
+                                <input type="password" name="" id="repeat-password" class="default-border">
+                                <div class="validation-msg" id="repeatPassword-error"></div>
+                            </div>
+                        </div>
+                        <button id="signup-btn">Sign up</button>
+                    </form>
+                </main>
+            </div>
+        </div>
+    </body>
+</html>
