@@ -1,0 +1,465 @@
+.trackgenix-section {
+    display: flex;
+    flex-direction: column;
+    margin: 4%;
+}
+
+.trackgenix-section img {
+    border-radius: 10px;
+}
+
+.trackgenix-section h1 {
+    text-transform: uppercase;    
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.trackgenix-text {
+    margin-top: 5%;
+}
+
+.trackgenix-section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.trackgenix-section button {
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 2%;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.functionalities {
+    background-color: #DDDDE5;
+    margin: 2%;
+}
+
+.functionalities h2 {
+    display: none;
+}
+
+.functionalities-content div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+    margin: 5%;
+}
+
+.functionalities img {
+    width: 100px;
+    height: 100px;
+    margin-right: 5%;
+}
+
+.functionalities p {
+    font-size: 14px;
+}
+
+.functionalities span {
+    font-weight: bold;
+}
+
+.report, .resource {
+    flex-direction: row-reverse;
+}
+
+.why-trackgenix {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.why-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why-title h2 {
+    margin-top: 10%;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 2px solid black;
+}
+
+.why-title span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.why-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    border-bottom: 2px solid #C4C4C4;
+}
+
+.why-content div {
+    display: flex;
+    align-items: center;    
+}
+
+.why-content p {
+    font-size: 12px;
+}
+
+.why-content img {
+    width: 50px;
+    height: 50px;
+    padding: 3%;
+}
+
+.why-page, .why-making {
+    flex-direction: row-reverse;
+}
+
+.form {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.form-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-images img {
+    width: 40px;
+    height: 40px;
+    padding: 5%;
+}
+
+.form p {
+    display: none;
+}
+
+.form-content h2 {
+    display: none;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form-content div {
+    margin-bottom: 5%;
+    width: 80%;
+}
+
+.form-content form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form-content label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.input-name input, .input-email input {
+    width: 100%;
+    height: 30px;
+    margin-top: 5%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-area div {
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 3%;
+    padding-right: 20%;
+}
+
+.input-area input {
+    float: left;
+}
+
+.input-message textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 5%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.form-content button {
+    width: 15%;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 1px;
+    background-color: #373867;
+}
+
+.about {
+    margin-top: 15%;
+}
+
+.about div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.our-mission div, .our-history div {
+    display: flex;
+    flex-direction: column;
+}
+
+.about h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #C4C4C4;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+}
+
+.about div img {
+    width: 80%;
+    height: 20%;
+    margin: 2%;
+}
+
+.mission-h3 {
+    display: flex;
+    justify-content: right;
+    margin-right: 5%;
+}
+
+.history-h3 {
+    display: flex;
+    justify-content: left;
+    margin-left: 5%;
+}
+
+.about p {
+    font-size: 12px;
+}
+
+.about h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.mission-text, .history-text  {
+    width: 70%;
+}
+
+@media (min-width: 768px) {
+    .trackgenix-text {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .trackgenix-text p {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    .trackgenix-text h1 {
+        border-bottom: none;
+    }
+
+    .trackgenix-section button {
+        margin-left: 0;
+    }
+
+    .functionalities h2 {
+        display: flex;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 2%;
+        border-bottom: 1px solid black;
+    }
+
+    .why-title h2 {
+        border-bottom: none;
+    }
+
+    .why-title {
+        width: 80%;
+        border-bottom: 2px solid #C4C4C4;
+    }
+}
+
+@media (min-width: 1024px) {
+    main {
+        margin-left: 15%;
+    }
+
+    .trackgenix-section {
+        flex-direction: row-reverse;
+        margin-bottom: 20%;
+    }
+    
+    .trackgenix-text {
+        display: block;        
+    }
+
+    .trackgenix-text  p {
+        margin-left: 0;
+        width: 70%;
+    }
+
+    .trackgenix-section img {
+        width: 50%;
+        height: auto;
+        margin-left: 10%;
+    }
+
+    .trackgenix-text h1 {
+        border-bottom: none;
+    }
+
+    .trackgenix-text button {
+        margin-left: 0;
+        margin-top: 15%;
+    }
+
+    .functionalities {
+        background-color: white;
+    }
+
+    .functionalities h2 {
+        display: flex;
+    }
+
+    .functionalities div {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10%;
+        margin: 5%;
+    }
+    
+    .functionalities-content {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .functionalities-content div {
+        width: 40%;
+    }
+
+    .functionalities-content div img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .why-trackgenix {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .why-trackgenix div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .why-content {
+        width: 40%;
+        border-bottom: none;
+    }
+
+    .why-title {
+        width: 50%;
+        margin-left: 5%;
+        border-right: 1px solid black;
+        border-bottom: none;
+    }
+
+    .why-title img {
+        width: 45%;
+    }
+
+    .why-title h2 {
+        margin-left: 5%;
+        border-bottom: none;
+    }
+
+    .why-content img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .form {
+        flex-direction: row;
+    }
+
+    .form p {
+        display: flex;
+    }
+
+    .form-content h2 {
+        display: flex;
+        width: 100%;
+        margin-left: 20%;
+        margin-right: 10%;
+        font-size: 24px;
+        border-bottom: 2px solid #C4C4C4;
+    }
+
+    .form-info {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        border-right: 1px solid black;
+        padding-bottom: 30%;
+    }
+
+    .form-content {
+        width: 50%;
+    }
+
+    .about h2 {
+        border-bottom: none;
+        justify-content: left;
+    }
+
+    .about h3 {
+        border-bottom: 2px solid #C4C4C4;
+        width: 100%;
+    }
+}

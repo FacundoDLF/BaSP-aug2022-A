@@ -1,0 +1,68 @@
+aside.container {
+    display: none;
+    background-color: #DFE4DE;
+    font-size: 20px;
+    border-radius: 0 0 15px 15px;
+    min-width: 210px;
+}
+
+aside h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: none;
+    margin-bottom: 30px;
+}
+
+.section {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section.nav {
+    margin-bottom: 40px;
+}
+
+.current {
+    text-decoration: underline;
+}
+
+.list li{
+    margin-bottom: 30px;
+}
+
+.section.get-in-touch p.text {
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.contact-data {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.contact-data img{
+    width: 10%;
+    height: auto;
+    margin-right: 15px;
+}
+
+.contact-data p {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    aside.container {
+        display: block;
+        width: 20%;
+        height: fit-content;
+        margin-left: 20px;
+        position: sticky;
+        top: 95px;
+    }
+}

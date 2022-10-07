@@ -1,0 +1,98 @@
+aside {
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    width: 15%;
+    height: 100%;
+    top: 0;
+    z-index: 2;
+    background-color: #373867;
+}
+
+aside input {
+    width: 80%;
+    height: 4%;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.aside-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5%;
+}
+
+.aside-menu h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.aside-menu ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.aside-menu li {
+    margin-top: 10%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.aside-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.aside-get {
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    padding: 5%;
+}
+
+.aside-get h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.aside-get p {
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.aside-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-info div {
+    display: flex;
+    padding: 3%;
+}
+
+.aside-info img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5%;
+}
+
+.aside-info p {
+    color: white;
+    font-size: 12px;
+    padding-bottom: 5%;
+}
+
+@media (min-width: 1024px) {
+    aside {
+    display: flex;
+    }
+}
